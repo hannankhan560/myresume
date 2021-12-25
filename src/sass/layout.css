@@ -1,0 +1,32 @@
+.theme-selector-light {
+    background-color: #F2F2F2;
+    color: #939393;
+    height: 100vh;
+    width: 50%;
+    text-decoration: none;
+}
+.theme-selector-dark {
+    /* background-color: #434545; */
+    background-color: black;
+    color: #979899;
+    height: 100vh;
+    width: 50%;
+    text-decoration: none;
+}
+.theme-selector-light:hover {
+    color: #F8BB10;
+}
+.theme-selector-dark:hover {
+    color: #e0a80d;
+}
+.layout-content h2{
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.all-center {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

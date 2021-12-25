@@ -1,0 +1,127 @@
+// .light-theme {
+//     $primary-color: grey;
+//     $secondary-color: black;
+//     .resume-wrapper{
+//         background-color: $primary-color;
+//         color: $secondary-color;
+//     }
+
+// }
+
+// .dark-theme {
+//     $primary-color: black;
+//     $secondary-color: white;
+//     .resume-wrapper{
+//         background-color: $primary-color;
+//         color: $secondary-color;
+//     }
+// }
+
+.resume-wrapper{
+    background-color: $primary-color;
+    color: $secondary-color;
+
+    .sec {
+        height: 100vh;
+        // border-bottom: 1px solid $secondary-color;
+        position: relative;
+    }
+    .intro-sec {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        .pic-wrapper {
+            position: absolute;
+            top: 50px;
+            margin-left: auto;
+            margin-right: auto;
+            left: 0;
+            right: 0;
+            text-align: center;
+            width: 160px;
+            height: 160px;
+            border-radius: 50%;
+            padding: 10px;
+            border: 1px solid $third-color;
+            img {
+                width: 100%;
+                border-radius: 50%;
+            }
+        }
+        h1{
+            font-size: 60px;
+            text-transform: uppercase;
+            span {
+                color: $third-color;
+            }
+        }
+        .intro-subsec {
+            display: flex;
+            justify-content: center;
+            position: absolute;
+            margin: 0 auto;
+            bottom: 30px;
+            
+            .intro-title {
+                margin: 0 20px;
+                span {
+                    // color: $third-color;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+    .resumetech {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        span{
+            font-weight: bold;
+            color: $third-color;
+        }
+    }
+    .mybenefit-sec {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        .mybenefit-content {
+            width: 70%;
+            margin: 0 auto;
+            h2 {
+                color: $third-color;
+                text-transform: uppercase;
+            }
+        }
+    }
+    .myquote-sec {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        .myquote-content {
+            width: 80%;
+            margin: 0 auto;
+            p{
+                font-size: 20px;
+                font-weight: bold;
+                span {
+                    color: $third-color;
+                }
+            }
+        }
+    }
+
+    .sec-arrow-down {
+        position: absolute;
+        bottom: 10px;
+        margin-left: auto;
+        margin-right: auto;
+        left: 0;
+        right: 0;
+    }
+}
+

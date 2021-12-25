@@ -1,0 +1,41 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+@import "./layout.css";
+// @import "./resume.scss";
+
+$myColor: rgb(27, 27, 27);
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.row {
+  --bs-gutter-x: 0;
+}
+
+#root {
+    position: relative;
+    overflow-x: hidden;
+    min-height: 100vh;
+    text-align: center;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.light-theme {
+    $primary-color: rgb(233, 233, 233);
+    $secondary-color: black;
+    $third-color: #e0a80d;
+    @import "./resume.scss";
+
+}
+
+.dark-theme {
+    $primary-color: black;
+    // $primary-color: #434545;
+    $secondary-color: white;
+    $third-color: #e0a80d;
+    @import "./resume.scss";
+
+}
