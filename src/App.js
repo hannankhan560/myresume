@@ -24,6 +24,7 @@ export default function App() {
     <BrowserRouter>
       <Routes>
           <Route path="/" element={<Layout />} />
+          <Route path="/myresume/" element={<Layout />} />
           <Route path="/resume-light" element={<Resume theme={"light-theme"} />} />
           <Route path="/resume-dark" element={<Resume theme={"dark-theme"} />} />
           <Route path="/resume" element={<Resume />} />
