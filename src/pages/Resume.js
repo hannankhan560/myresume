@@ -4,6 +4,7 @@ import Introduction from '../components/Introduction'
 import Resumeinreact from '../components/Resumeinreact'
 import MyBenefit from '../components/MyBenefit'
 import MyQuote from '../components/MyQuote'
+import Experience from '../components/Experience'
 // import { useLocation } from 'react-router-dom';
 // import ThemeSelector from '../components/ThemeSelector';
 
@@ -16,6 +17,7 @@ function Resume({theme}) {
             <Introduction />
             <MyQuote />
             <MyBenefit />
+            <Experience />
             <Resumeinreact />
             {/* <Link to="/">Go Back</Link> */}
         </div>
