@@ -185,6 +185,14 @@
 
 }
 
+@media (max-width: 480px) {
+    .container {
+      width: 95% !important;
+    }
+    .experience {
+        width: 100% !important;
+    }
+  }
 
 
 
