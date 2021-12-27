@@ -3,7 +3,7 @@ import { IoIosArrowDown } from "react-icons/io";
 
 function Introduction() {
     return (
-        <section className='intro-sec sec'>
+        <section className='intro-sec sec section'>
             <div className='intro-content'>
                 <div className='pic-wrapper'>
                     <img src={

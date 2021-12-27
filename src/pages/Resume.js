@@ -5,25 +5,27 @@ import Resumeinreact from '../components/Resumeinreact'
 import MyBenefit from '../components/MyBenefit'
 import MyQuote from '../components/MyQuote'
 import Experience from '../components/Experience'
-// import { useLocation } from 'react-router-dom';
-// import ThemeSelector from '../components/ThemeSelector';
 
 function Resume({theme}) {
-
+        
     return (
-        // <ThemeSelector>
+        // <ThemeSelector>  
         <div className={theme} >
-            <div className='resume-wrapper'>
+            <div id="fullpage" className='resume-wrapper'>
             <Introduction />
             <MyQuote />
             <MyBenefit />
             <Experience />
             <Resumeinreact />
             {/* <Link to="/">Go Back</Link> */}
-        </div>
+            </div>
         </div>
         // </ThemeSelector> 
     )
 }
 
 export default Resume
+
+
+
+

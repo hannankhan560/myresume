@@ -2,7 +2,7 @@ import React from 'react'
 
 function Experience() {
     return (
-        <section className='sec experience-sec'>
+        <section className='sec experience-sec section'>
             <div className='container'>
                 <h2 className='section-heading'>Work Experience</h2>
                 <div className='row experiences'>

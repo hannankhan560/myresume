@@ -3,8 +3,10 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Resume from './pages/Resume'
 import Layout from "./pages/Layout";
 import NoPage from "./pages/Nopage";
-import Cursor from './Cursor';
+// import Cursor from './Cursor';
 import './sass/style.scss';
+// import ReactFullpage from '@fullpage/react-fullpage';
+
 
 
 // function App() {  
@@ -31,7 +33,7 @@ export default function App() {
           <Route path="*" element={<NoPage />} />
       </Routes>
     </BrowserRouter>
-    <Cursor />
+    {/* <Cursor /> */}
     </>
   );
 }

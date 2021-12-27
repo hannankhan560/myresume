@@ -17,16 +17,23 @@
 //     }
 // }
 
+
 .resume-wrapper{
     background-color: $primary-color;
     color: $secondary-color;
 
+    width: 100%;
+    height: 100%;
+    scroll-snap-type: y block mandatory;
+    // overflow-y: scroll;
+
     .container {
         width: 80%;
-        margin: 0 auto;
+        margin: 0 auto; 
     }
 
     .sec {
+        scroll-snap-align: start;    
         min-height: 100vh;
         // border-bottom: 1px solid $secondary-color;
         position: relative;
@@ -115,6 +122,20 @@
         .myquote-content {
             width: 80%;
             margin: 0 auto;
+            .quote-mark {
+                position: absolute;
+                svg {
+                    font-size: 50px;
+                }
+            }
+            .quote-left {
+                top: 100px;
+                left: 100px;
+            }
+            .quote-right {
+                bottom: 100px;
+                right: 100px;
+            }
             p{
                 font-size: 20px;
                 font-weight: bold;
