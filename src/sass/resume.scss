@@ -156,6 +156,10 @@
     }
     
     .experience-sec {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
         .experiences {
             flex-wrap: wrap;
             justify-content: space-around;
@@ -182,7 +186,38 @@
             }
         }
     }
-
+    .skills-sec {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        .skills-content {
+            h2{
+                color: $third-color;
+                text-transform: uppercase;
+                padding: 25px 0;
+                span {
+                    color: $secondary-color;
+                }
+            }
+            .skills {
+                display: flex;
+                justify-content: space-around;
+                p{
+                    display: inline-block;
+                    width: 150px;
+                    margin: 10px 5px;
+                    padding: 5px 0;
+                    border: 1px solid $third-color;
+                    // border-radius: 5px;
+                    // text-transform: uppercase;
+                    span{
+                        color: $third-color;
+                    }
+                }
+            }
+        }
+    }
 }
 
 @media (max-width: 480px) {

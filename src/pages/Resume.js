@@ -5,6 +5,7 @@ import Resumeinreact from '../components/Resumeinreact'
 import MyBenefit from '../components/MyBenefit'
 import MyQuote from '../components/MyQuote'
 import Experience from '../components/Experience'
+import Skills from '../components/Skills'
 
 function Resume({theme}) {
         
@@ -15,6 +16,7 @@ function Resume({theme}) {
             <Introduction />
             <MyQuote />
             <MyBenefit />
+            <Skills />
             <Experience />
             <Resumeinreact />
             {/* <Link to="/">Go Back</Link> */}
