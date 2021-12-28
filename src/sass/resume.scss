@@ -160,23 +160,29 @@
         text-align: center;
         justify-content: center;
         align-items: center;
+        .section-heading {
+            color: $third-color;
+        }
         .experiences {
             flex-wrap: wrap;
             justify-content: space-around;
             .experience {
                 width: 45%;
-                background-color: #73737342;
-                // background-color: $secondary-color;
+                // background-color: #73737342;
+                background-color: $primary-color;
+                box-shadow: 0 4px 8px 0 rgb(130 129 129 / 36%), 0 6px 20px 0 rgb(118 117 117 / 38%);
                 padding: 15px;
                 margin: 10px 0;
                 h2 {
-                    color: $third-color;
+                    color: $secondary-color;
                     text-transform: uppercase;
                     font-size: 22px;
+                    font-weight: bold;
                 }
                 .experience-corp {
                     // text-align: right;
                     // text-transform: uppercase;
+                    color: $third-color;
                     font-weight: bold   ;
                 }
                 p{
