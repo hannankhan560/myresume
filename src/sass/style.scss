@@ -25,7 +25,7 @@ $myColor: rgb(27, 27, 27);
 
 .light-theme {
     $primary-color: rgb(233, 233, 233);
-    $secondary-color: black;
+    $secondary-color: rgb(15, 15, 15);
     $third-color: #e0a80d;
     @import "./resume.scss";
 
