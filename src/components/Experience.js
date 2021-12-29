@@ -9,7 +9,7 @@ function Experience() {
                         <div className='experience'>
                             <div className='experience-content'>
                             {/* <h2>React & Javascript Developer</h2> */}
-                            <h2>Weboryx LLC, Illinois, CA- 1 year</h2>
+                            <h2>FNB Tech, CA- 1 year</h2>
                             <p className='experience-corp'>React & Javascript Developer</p>
                             {/* <p className='experience-corp'>Weboryx LLC, Illinois, CA- 1 year</p> */}
                             <p>Worked on HTML5, CSS3, SASS, Bootstrap, Tailwind, JQuery, Javscript, 
