@@ -25,14 +25,14 @@ $myColor: rgb(27, 27, 27);
 
 .light-theme {
     $primary-color: rgb(233, 233, 233);
-    $secondary-color: rgb(24, 24, 24);
+    $secondary-color: black;
     $third-color: #e0a80d;
     @import "./resume.scss";
 
 }
 
 .dark-theme {
-    $primary-color: rgb(24, 24, 24);
+    $primary-color: black;
     // $primary-color: #434545;
     $secondary-color: white;
     $third-color: #e0a80d;

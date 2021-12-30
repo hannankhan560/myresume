@@ -170,9 +170,15 @@
                 width: 45%;
                 // background-color: #73737342;
                 background-color: $primary-color;
-                box-shadow: 0 4px 8px 0 rgb(130 129 129 / 36%), 0 6px 20px 0 rgb(118 117 117 / 38%);
-                padding: 15px;
+                // box-shadow: 5px 4px 8px 0 rgba(71, 71, 71, 0.36), 0 6px 20px 0 rgb(71, 71, 71, 0.36);
+                box-shadow: 0px 0px 30px 0 rgba(71, 71, 71, 0.36), 0 0px 30px 0 rgb(71, 71, 71, 0.36);
+                padding: 20px;
+                // border: 1px solid rgba(37, 37, 37, 0.705);
                 margin: 10px 0;
+
+                display: flex;
+                align-items: center;
+                justify-content: center;
                 h2 {
                     color: $secondary-color;
                     text-transform: uppercase;
