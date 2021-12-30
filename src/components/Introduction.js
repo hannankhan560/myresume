@@ -1,17 +1,23 @@
 import React from 'react'
 import { IoIosArrowDown } from "react-icons/io";
+import AnimateText from './AnimateText';
 
 function Introduction() {
     return (
         <section className='intro-sec sec section'>
             <div className='intro-content'>
-                <div className='pic-wrapper'>
+                <div className='pic-wrapper' data-aos="fade-down">
                     <img src={
                         require("../images/hannanpic.jpg")
                     } alt='img'/>
                 </div>
-                <h1>I'm <span>Hannan</span> a. khan</h1>
-                <p>React / Javascript Developer & Graphic Designer</p>
+                <h1 >I'm &nbsp;
+                <span>
+                    <AnimateText text="Hannan"/>
+                </span>
+                    &nbsp; a. khan</h1>
+
+                <p data-aos="fade-up">React / Javascript Developer & Graphic Designer</p>
                 <div className='intro-subsec'>
                     <div className='intro-title'>
                         <p><span>Age:</span> 24</p>
