@@ -30,3 +30,14 @@
     align-items: center;
     justify-content: center;
 }
+
+@media (max-width: 480px) {
+    .theme-selector-dark {
+        height: 50vh;
+        width: 100%;
+    }
+    .theme-selector-light {
+        height: 50vh;
+        width: 100%;
+    }
+}
