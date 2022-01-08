@@ -6,22 +6,24 @@ import MyBenefit from '../components/MyBenefit'
 import MyQuote from '../components/MyQuote'
 import Experience from '../components/Experience'
 import Skills from '../components/Skills'
-import AOS from 'aos';
+import Basics from '../components/Basics'
+// import AOS from 'aos';
 
 function Resume({theme}) {
-    useEffect(() => {
-        AOS.init({
-          duration : 1000
-        });
-      }, []);
+    // useEffect(() => {
+    //     AOS.init({
+    //       duration : 1000
+    //     });
+    //   }, []);
     return (
         // <ThemeSelector>  
         <div className={theme} >
             <div id="fullpage" className='resume-wrapper'>
             <Introduction />
             <MyQuote />
-            <MyBenefit />
+            <Basics />
             <Skills />
+            <MyBenefit />
             <Experience />
             <Resumeinreact />
             {/* <Link to="/">Go Back</Link> */}

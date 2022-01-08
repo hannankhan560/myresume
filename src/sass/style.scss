@@ -1,6 +1,6 @@
 @import 'bootstrap/dist/css/bootstrap.min.css';
 @import "./layout.css";
-@import "aos/dist/aos.css";
+// @import "aos/dist/aos.css";
 // @import "./resume.scss";
 
 $myColor: rgb(27, 27, 27);
@@ -25,8 +25,9 @@ $myColor: rgb(27, 27, 27);
 }
 
 .light-theme {
-    $primary-color: rgb(233, 233, 233);
-    $secondary-color: black;
+    $primary-color: rgb(238, 238, 238);
+    $primary-color2: rgb(216, 216, 216);
+    $secondary-color: rgb(24, 24, 24);
     $third-color: #e0a80d;
     @import "./resume.scss";
 
@@ -34,9 +35,11 @@ $myColor: rgb(27, 27, 27);
 
 .dark-theme {
     $primary-color: black;
+    $primary-color2: rgb(19, 19, 19);
     // $primary-color: #434545;
     $secondary-color: white;
     $third-color: #e0a80d;
     @import "./resume.scss";
 
 }
+

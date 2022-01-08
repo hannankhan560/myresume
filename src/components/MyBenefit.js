@@ -2,7 +2,7 @@ import React from 'react'
 
 function MyBenefit() {
     return (
-        <section className='sec mybenefit-sec section'>
+        <section className='sec mybenefit-sec section sec2'>
             <div className='container'>
                 <div className='mybenefit-content'>
                     <h2 data-aos="fade-down">How can I save your money.</h2>

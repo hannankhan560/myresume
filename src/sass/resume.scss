@@ -21,11 +21,14 @@
 .resume-wrapper{
     background-color: $primary-color;
     color: $secondary-color;
-
     width: 100%;
-    height: 100%;
-    scroll-snap-type: y block mandatory;
-    // overflow-y: scroll;
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    height: 100vh;
+    
+    section {
+        scroll-snap-align: start;
+    }
 
     .container {
         width: 80%;
@@ -33,7 +36,7 @@
     }
 
     .sec {
-        scroll-snap-align: start;    
+        // scroll-snap-align: start;    
         min-height: 100vh;
         // border-bottom: 1px solid $secondary-color;
         position: relative;
@@ -43,6 +46,9 @@
             margin: 25px 0;
         }
     }
+    .sec2 {
+        // background-color: $third-color;
+    }
     .intro-sec {
         display: flex;
         text-align: center;
@@ -50,8 +56,8 @@
         align-items: center;
         position: relative;
         .pic-wrapper {
-            position: absolute;
-            top: 50px;
+            // position: absolute;
+            // top: 90px;
             margin-left: auto;
             margin-right: auto;
             left: 0;
@@ -62,6 +68,8 @@
             border-radius: 50%;
             padding: 10px;
             border: 1px solid $third-color;
+            margin-top: -100px;
+            margin-bottom: 20px;
             img {
                 width: 100%;
                 border-radius: 50%;
@@ -91,9 +99,14 @@
             position: absolute;
             margin: 0 auto;
             bottom: 30px;
+            // min-width: 800px;
+            flex-wrap: wrap;
+            left: 50%;
+            transform: translateX(-50%);
             
             .intro-title {
                 margin: 0 20px;
+                width: 180px;
                 span {
                     // color: $third-color;
                     font-weight: bold;
@@ -141,12 +154,12 @@
                 }
             }
             .quote-left {
-                top: 100px;
-                left: 100px;
+                top: 50px;
+                left: 50px;
             }
             .quote-right {
-                bottom: 100px;
-                right: 100px;
+                bottom: 50px;
+                right: 50px;
             }
             p{
                 font-size: 20px;
@@ -242,16 +255,45 @@
             }
         }
     }
+    .about-sec {
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        .summary {
+            h3 {
+                color: $third-color;
+                text-transform: uppercase;
+            }
+        }
+        .intro-subsec {
+            .intro-title {
+                p{
+                    span{
+                        color: $third-color;
+                    }
+                }
+            }
+        }
+    }
+
+    @media (max-width: 480px) {
+        .container {
+            width: 95%;
+        }
+        .dark-theme .resume-wrapper .intro-sec .pic-wrapper {
+            top: 20px;
+        }
+        .light-theme .resume-wrapper .intro-sec h1 {
+            font-size: 45px;
+        }
+        .experience-sec .experiences .experience {
+            width: 100%;
+        }
+    }
 }
 
-@media (max-width: 480px) {
-    .container {
-      width: 95% !important;
-    }
-    .experience {
-        width: 100% !important;
-    }
-  }
+
 
 
 

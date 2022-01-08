@@ -2,7 +2,7 @@ import React from 'react'
 
 function Experience() {
     return (
-        <section className='sec experience-sec section'>
+        <section className='sec experience-sec section sec2'>
             <div className='container'>
                 <h2 className='section-heading' data-aos="fade-down">Work Experience</h2>
                 <div className='row experiences'>
@@ -17,7 +17,15 @@ function Experience() {
                                 based functionality and animations for numbers of projects.</p>
                         </div>
                         </div>
-                        
+                        <div className='experience' data-aos="zoom-in">
+                            <div className='experience-content'>
+                            <h2>Iplex - 6 Months</h2>
+                            <p className='experience-corp'>React & Javascript Developer (Internship)</p>
+                            {/* <h2>React & Javascript Developer (Internship)</h2> */}
+                            {/* <p className='experience-corp'>Iplex - 6 Months</p> */}
+                            <p>Learned Problem Solving, Javascript, ReactJS, NextJS, Firebase, GitHub and build projects based on learning. </p>
+                            </div>
+                        </div>
                         <div className='experience' data-aos="zoom-in">
                             <div className='experience-content'>
                             <h2>Fliegen IT Solutions - 3 years</h2>
@@ -41,15 +49,7 @@ function Experience() {
                                 Worked on building Print Media and Digital Media.</p>
                         </div>
                         </div>
-                        <div className='experience' data-aos="zoom-in">
-                            <div className='experience-content'>
-                            <h2>Iplex - 6 Months</h2>
-                            <p className='experience-corp'>React & Javascript Developer (Internship)</p>
-                            {/* <h2>React & Javascript Developer (Internship)</h2> */}
-                            {/* <p className='experience-corp'>Iplex - 6 Months</p> */}
-                            <p>Learned Problem Solving, Javascript, ReactJS, NextJS, Firebase, GitHub and build projects based on learning. </p>
-                            </div>
-                        </div>
+                        
                 </div>
             </div>
         </section>
