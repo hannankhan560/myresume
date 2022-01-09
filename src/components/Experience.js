@@ -38,7 +38,7 @@ function Experience() {
                                 </p>
                         </div>
                         </div>
-                        <div className='experience' data-aos="zoom-in">
+                        <div className='experience experience-last' data-aos="zoom-in">
                             <div className='experience-content'>
                             <h2>Telesquad LLC, Pembroke Pines, FL - 1.5 years</h2>
                             <p className='experience-corp'>Front End Developer / Graphic Designer</p>
