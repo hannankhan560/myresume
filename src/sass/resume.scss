@@ -23,6 +23,7 @@
     color: $secondary-color;
     width: 100%;
     scroll-snap-type: y mandatory;
+    scroll-behavior: smooth; 
     overflow-y: scroll;
     height: 100vh;
     
@@ -318,7 +319,7 @@
             margin: 15px 0;
         }
         .experience-sec .experiences .experience-last {
-            margin-bottom: 90px;
+            margin-bottom: 200px;
         }
     }
     @media (max-width: 320px) {
