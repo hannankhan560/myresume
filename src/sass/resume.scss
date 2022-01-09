@@ -45,9 +45,7 @@
             text-transform: uppercase;
             margin: 25px 0;
         }
-    }
-    .sec2 {
-        // background-color: $third-color;
+        padding: 30px 0;
     }
     .intro-sec {
         display: flex;
@@ -174,7 +172,7 @@
 
     .sec-arrow-down {
         position: absolute;
-        bottom: 10px;
+        bottom: 30px;
         margin-left: auto;
         margin-right: auto;
         left: 0;
@@ -291,6 +289,47 @@
         }
         .experience-sec .experiences .experience {
             width: 100%;
+        }
+        .intro-sec h1 {
+            font-size: 50px;
+        }
+        .intro-sec p {
+            font-size: 14px;
+        }
+        .skills-sec .skills-content h2 {
+            margin: 10px 0;
+            padding: 0;
+        }
+        .experience-sec .experiences .experience h2 {
+            font-size: 18px;
+        }
+        .experience-sec .experiences .experience {
+            padding: 15px 10px;
+            margin: 10px;
+        }
+        .experience-sec .experiences .experience p {
+            padding: 0;
+            margin: 0;
+        }
+        .experience-sec .experiences .experience .experience-corp {
+            margin-bottom: 5px;
+        }
+        .sec .section-heading {
+            margin: 15px 0;
+        }
+    }
+    @media (max-width: 320px) {
+        .intro-sec h1 {
+            font-size: 42px;
+        }
+        .skills-sec .skills-content .skills {
+            justify-content: space-between;
+        }
+        .skills-sec .skills-content .skills p {
+            font-size: 15px;
+            width: 137px;
+            margin: 10px 0px;
+            padding: 5px 0;
         }
     }
 }

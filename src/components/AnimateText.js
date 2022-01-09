@@ -3,7 +3,7 @@ import React from 'react'
 function AnimateText(props) {
     let anitext = props.text
     let newSpan = ''
-    console.log(props.text)
+    // console.log(props.text)
     newSpan = anitext.split("").map(function(char, index){
         const style = {"animation-delay": (0.5 + index / 10) + "s"};
         return <span
@@ -13,7 +13,7 @@ function AnimateText(props) {
             {char}
         </span>;
     })
-    console.log(newSpan)
+    // console.log(newSpan)
     return (
         <>
             {newSpan}
