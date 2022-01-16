@@ -8,10 +8,10 @@ function Basics() {
                     <div className='col-md-6 col-sm-12 summary'>
                         <h3 className='about-h' data-aos="fade-down">Who Am I</h3>
                         <p data-aos="fade-up">
-                            I am a senior Front-End web application developer with over 7 years of experience in the industry 
+                            Senior Front-End web application developer with over 7 years of diverse experience in the industry 
                             with developing Websites, Graphics, Writing Codes and solving problems from scratch. 
-                            I have done Bachelor of Computer Science from Preston University. I am a great fit
-                            for any startup or web agency. I am confident in starting on any kind of website which
+                            I have obtained my Bachelor Degree in Computer Science from Preston University. I'm an ideal fit
+                            for any startup as well as web agency. I am confident in starting on any kind of website which
                             meets todays web standards and expectations.
                         </p>
                     </div>
