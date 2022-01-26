@@ -7,6 +7,7 @@ function Skills() {
                 <div className='skills-content'>
                     <h2 data-aos="fade-down"><span>#</span>skills</h2>
                     <div className='row skills'>
+                        <p data-aos="flip-left"><span>#</span>NextJS</p>
                         <p data-aos="flip-left"><span>#</span>ReactJS</p>
                         <p data-aos="flip-left"><span>#</span>Javscript</p>
                         <p data-aos="flip-left"><span>#</span>JQuery</p>
@@ -24,7 +25,7 @@ function Skills() {
                         <p data-aos="flip-left"><span>#</span>VisualStudioCode</p>
                         <p data-aos="flip-left"><span>#</span>Sublime</p>
                         <p data-aos="flip-left"><span>#</span>Agile</p>
-                        <p data-aos="flip-left"><span>#</span>Scrum</p>
+                        {/* <p data-aos="flip-left"><span>#</span>Scrum</p> */}
                     </div>
                 </div>
             </div>
