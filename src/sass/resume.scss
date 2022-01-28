@@ -16,7 +16,23 @@
 //         color: $secondary-color;
 //     }
 // }
-
+.btn {
+    color: $secondary-color;
+    border: 1px solid $third-color;
+    // border-radius: 5px;
+    padding: 5px 10px;
+    font-size: 14px;
+    margin: 10px 0;
+    text-transform: uppercase;
+}
+.btn:hover {
+    background-color: $secondary-color;
+    color: $third-color;
+    font-weight: bold;
+    // background-color: $third-color;
+    // color: $primary-color;
+    transition: 0.5s ease;
+}
 
 .resume-wrapper{
     background-color: $primary-color;

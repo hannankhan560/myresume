@@ -21,6 +21,7 @@ function Introduction() {
                     <p data-aos="fade-up">React / Javascript Developer & Graphic Designer</p>
                     
                 </div>
+                    <a className='btn' href="https://drive.google.com/file/d/14oI0L3WuPjyb4J35NsxG-YGNl9OvVvxk/view?usp=sharing">Download Resume</a>
                 <div className='sec-arrow-down'>
                 <IoIosArrowDown />
                 </div>
