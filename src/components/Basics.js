@@ -24,7 +24,7 @@ function Basics() {
                                 <p data-aos="zoom-in"><span>Age:</span> 25</p>
                             </div>
                             <div className='intro-title'>
-                                <p data-aos="zoom-in"><span>Notice Period:</span> 7 Days</p>
+                                <p data-aos="zoom-in"><span>Available to start:</span> 7 Days</p>
                             </div>
                             <div className='intro-title'>
                                 <p data-aos="zoom-in"><span>Email: </span>hannankhan.work@gmail.com</p>
