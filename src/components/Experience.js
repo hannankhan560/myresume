@@ -17,15 +17,13 @@ function Experience() {
                                 based functionality and animations for numbers of projects.</p>
                         </div>
                         </div>
-                        <div className='experience' data-aos="zoom-in">
+                        {/* <div className='experience' data-aos="zoom-in">
                             <div className='experience-content'>
                             <h2>Iplex - 6 Months</h2>
                             <p className='experience-corp'>React & Javascript Developer (Internship)</p>
-                            {/* <h2>React & Javascript Developer (Internship)</h2> */}
-                            {/* <p className='experience-corp'>Iplex - 6 Months</p> */}
                             <p>Learned Problem Solving, Javascript, ReactJS, NextJS, Firebase, GitHub and build projects based on learning. </p>
                             </div>
-                        </div>
+                        </div> */}
                         <div className='experience' data-aos="zoom-in">
                             <div className='experience-content'>
                             <h2>Fliegen IT Solutions - 3 years</h2>
@@ -40,7 +38,7 @@ function Experience() {
                         </div>
                         <div className='experience experience-last' data-aos="zoom-in">
                             <div className='experience-content'>
-                            <h2>Telesquad LLC, Pembroke Pines, FL - 1.5 years</h2>
+                            <h2>Telesquad LLC, Pembroke Pines, FL - 2 years</h2>
                             <p className='experience-corp'>Front End Developer / Graphic Designer</p>
                             {/* <h2>Front End Developer / Graphic Designer</h2> */}
                             {/* <p className='experience-corp'>Telesquad LLC, Pembroke Pines, FL - 1.5 years</p> */}
