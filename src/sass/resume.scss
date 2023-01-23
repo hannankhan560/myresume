@@ -1,21 +1,4 @@
-// .light-theme {
-//     $primary-color: grey;
-//     $secondary-color: black;
-//     .resume-wrapper{
-//         background-color: $primary-color;
-//         color: $secondary-color;
-//     }
 
-// }
-
-// .dark-theme {
-//     $primary-color: black;
-//     $secondary-color: white;
-//     .resume-wrapper{
-//         background-color: $primary-color;
-//         color: $secondary-color;
-//     }
-// }
 .btn {
     color: $secondary-color;
     border: 1px solid $third-color;
@@ -187,6 +170,8 @@
         }
     }
 
+    @import './experience.scss';
+    @import './contactform.scss';
     .sec-arrow-down {
         position: absolute;
         bottom: 30px;
@@ -284,6 +269,8 @@
             }
         }
         .intro-subsec {
+            display: flex;
+            justify-content: space-around;
             .intro-title {
                 p{
                     span{

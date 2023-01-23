@@ -1,0 +1,26 @@
+.work-sec {
+    text-align: left;
+    .section-heading {
+        text-align: left;
+        color: $third-color;
+        border-bottom: 4px solid $third-color;
+        display: inline-block;
+        margin-bottom: 50px;
+        padding-bottom: 10px;
+    }
+    .Experience-Corp {
+        display: flex;
+        justify-content: space-between;
+        border-bottom: 2px solid $secondary-color;
+        padding-bottom: 5px;
+        margin-top: 25px;
+        span {
+            font-weight: 300;
+            font-size: medium;
+        }
+    }
+    .experience-title {
+        margin-top: 25px;
+        color: $third-color;
+    }
+}

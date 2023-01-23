@@ -1,0 +1,63 @@
+.contactFormSec {
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+    text-align: left;
+    .section-heading {
+        text-align: left;
+        color: $third-color;
+        border-bottom: 4px solid $third-color;
+        display: inline-block;
+        margin-bottom: 50px;
+        padding-bottom: 10px;
+    }
+    .intro-subsec {
+        padding-bottom: 25px;
+        .intro-title {
+            padding-bottom: 15px;
+            p {
+                span {
+                    color: $third-color;
+                }
+            }
+        }
+    }
+    form {
+        background-color: transparent;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+
+        input {
+            background-color: transparent;
+        }
+        #name, #email, #phone {
+            width: 32%;
+            margin: 15px 0;
+            padding: 15px;
+            border: 1px solid $secondary-color;
+            color: $secondary-color;
+        }
+        ::placeholder {
+            // color: $secondary-color;
+            font-weight: 300;
+        }
+        #subject, #message {
+            width: 100%;
+            background-color: transparent;
+            margin: 15px 0;
+            padding: 15px;
+            border: 1px solid $secondary-color;
+            color: $secondary-color;
+        }
+        button {
+            width: 100%;
+            background-color: $third-color;
+            color: $secondary-color;
+            padding: 15px;
+            margin: 15px 0;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+    }
+}

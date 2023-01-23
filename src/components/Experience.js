@@ -2,53 +2,31 @@ import React from 'react'
 
 function Experience() {
     return (
-        <section className='sec experience-sec section sec2'>
+        <section className='sec work-sec section sec2'>
             <div className='container'>
                 <h2 className='section-heading' data-aos="fade-down">Work Experience</h2>
                 <div className='row experiences'>
-                        <div className='experience' data-aos="zoom-in">
-                            <div className='experience-content'>
-                            {/* <h2>React & Javascript Developer</h2> */}
-                            <h2 >FNB Tech, CA- 1 year</h2>
-                            <p className='experience-corp'>React & Javascript Developer</p>
-                            {/* <p className='experience-corp'>Weboryx LLC, Illinois, CA- 1 year</p> */}
-                            <p>Worked on HTML5, CSS3, SASS, Bootstrap, Tailwind, JQuery, Javscript, 
-                                ReactJS, NextJS, GITHUB, NPM, Shopify, Wordpress, third party libraries, custom javascript 
-                                based functionality and animations for numbers of projects.</p>
-                        </div>
-                        </div>
-                        {/* <div className='experience' data-aos="zoom-in">
-                            <div className='experience-content'>
-                            <h2>Iplex - 6 Months</h2>
-                            <p className='experience-corp'>React & Javascript Developer (Internship)</p>
-                            <p>Learned Problem Solving, Javascript, ReactJS, NextJS, Firebase, GitHub and build projects based on learning. </p>
-                            </div>
-                        </div> */}
-                        <div className='experience' data-aos="zoom-in">
-                            <div className='experience-content'>
-                            <h2>Fliegen IT Solutions - 3 years</h2>
-                            <p className='experience-corp'>Front End Developer / Graphic Designer</p>
-                            {/* <h2>Front End Developer / Graphic Designer</h2> */}
-                            {/* <p className='experience-corp'>Fliegen IT Solutions - 3 years</p> */}
-                            <p>Worked mostly on HTML5, CSS3, JQuery to convert PSD web templates to frontend design, 
-                                build wordpress based sites, managed and customised shopify sites.
-                                also worked on UX design for some projects in Adobe XD and Illustrator.
-                                </p>
-                        </div>
-                        </div>
-                        <div className='experience experience-last' data-aos="zoom-in">
-                            <div className='experience-content'>
-                            <h2>Telesquad LLC, Pembroke Pines, FL - 2 years</h2>
-                            <p className='experience-corp'>Front End Developer / Graphic Designer</p>
-                            {/* <h2>Front End Developer / Graphic Designer</h2> */}
-                            {/* <p className='experience-corp'>Telesquad LLC, Pembroke Pines, FL - 1.5 years</p> */}
-                            <p>Worked mostly on HTML5, CSS3, Adobe Photoshop, Adobe Illustrator, Corel Draw, 
-                                Wordpress, webmaster, ecommerce, Ebay, Social Media Marketing.  
-                                Worked on building Print Media and Digital Media.</p>
-                        </div>
-                        </div>
-                        
+                    <div className='Experience-Corp'>
+                    <h4>FLIEGEN IT SOLUTIONS, <span></span></h4>
+                    <h5>3 YEARS</h5>
+                    </div>
+                    <h2 className='experience-title'>Front End Developer</h2>
+                    <p>
+                        <ul>
+                            <li>Developed and implemented responsive web designs for various clients using HTML, CSS, JavaScript, and jQuery. Collaborated with cross-functional teams to improve user experience and increase website traffic.</li>
+                            <li>Created visually appealing graphics and layouts for various print and digital marketing materials, including brochures, social media posts, and email campaigns. Utilized Adobe Creative Suite to design and edit images and videos.</li>
+                            <li>Wore a dual hat in this role, as I was responsible for both front-end development and graphic design. Utilized HTML, CSS, JavaScript, and React to develop responsive web designs. Also, created and edited graphics using Adobe Photoshop and Illustrator.</li>
+                            <li>Experience in developing user-facing applications using HTML, CSS, and JavaScript</li>
+                            <li>Strong understanding of responsive web design principles and techniques</li>
+                            <li>Experience with cross-browser compatibility issues and ways to work around them</li>
+                            <li>Regression Testing on apps and sites</li>
+                            <li>Managing and Training Teams</li>
+                            <li>Communicating with clients</li>
+                            <li>Scrum Meetings / Daily Standups</li>
+                        </ul>
+                    </p>
                 </div>
+                
             </div>
         </section>
     )
